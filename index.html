@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="table-container">
+            <h1 class="cabecalho">Tabela </h1>
+            
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Loja</th>
+                        <th>Local</th>
+                        <th>Data Venda</th>
+                        <th>Descrição</th>
+                        <th>Quantidade</th>
+                        <th>Valor</th>
+                        <th>Status</th>
+                        <th>Baixar</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr draggable="true" ondragstart="start()" ondragover="dragover()">
+                        <td table-label="Loja">10</td>
+                        <td table-label="Local">Julio Lima</td>
+                        <td table-label="Data venda">30 jan 2023</td>
+                        <td table-label="Descrição">#####</td>
+                        <td table-label="Quantidade">1,000</td>
+                        <td table-label="Valor">150,000</td>
+                        <td table-label="Status"> <span class="text-open">[ Ok ]</span></td>
+                        <td table-label=""><a href="#" class="btn">Download</a></td>
+                    </tr>
+                    <tr draggable="true" ondragstart="start()" ondragover="dragover()">
+                        <td table-label="Loja">01</td>
+                        <td table-label="Local">Idefonso Albano</td>
+                        <td table-label="Data venda">10 jan 2023</td>
+                        <td table-label="Descrição">#####</td>
+                        <td table-label="Quantidade">5,000</td>
+                        <td table-label="Valor">350,050</td>
+                        <td table-label="Status"> <span class="text-open">[ OK ]</span></td>
+                        <td table-label=""><a href="#" class="btn">Download</a></td>
+                    </tr>
+                    <tr draggable="true" ondragstart="start()" ondragover="dragover()">
+                        <td table-label="Loja">06</td>
+                        <td table-label="Local">Pinto Madeira</td>
+                        <td table-label="Data venda">01 jan 2023</td>
+                        <td table-label="Descrição">#####</td>
+                        <td table-label="Quantidade">600,000</td>
+                        <td table-label="Valor">900,000</td>
+                        <td table-label="Status"> <span class="text-open">[ OK ]</span></td>
+                        <td table-label=""><a href="#" class="btn">Download</a></td>
+                    </tr>
+                    <tr draggable="true" ondragstart="start()" ondragover="dragover()">
+                        <td table-label="Loja">30</td>
+                        <td table-label="Local">Beni de Carvalho</td>
+                        <td table-label="Data venda">26 jan 2023</td>
+                        <td table-label="Descrição">#####</td>
+                        <td table-label="Quantidade">9,000</td>
+                        <td table-label="Valor">250,100</td>
+                        <td table-label="Status"> <span class="text-open">[ OK ]</span></td>
+                        <td table-label=""><a href="#" class="btn">Download</a></td>
+                    </tr>
+                    <tr draggable="true" ondragstart="start()" ondragover="dragover()">
+                        <td table-label="Loja">04</td>
+                        <td table-label="Local">Henrique Jorge</td>
+                        <td table-label="Data venda">15 jan 2023</td>
+                        <td table-label="Descrição">#####</td>
+                        <td table-label="Quantidade">7,000</td>
+                        <td table-label="Valor">600,000</td>
+                        <td table-label="Status"> <span class="text-open">[ Ok ]</span></td>
+                        <td table-label=""><a href="#" class="btn">Download</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
+
